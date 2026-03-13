@@ -2,7 +2,7 @@ spring:
   application:
     name: usuarios
   datasource:
-    url: jdbc:mysql://localhost:3306/mi_ficha_favorita2
+    url: jdbc:mysql://localhost:3306/degenerate_company
     username: root
     password: admi123
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -25,4 +25,4 @@ loggin: # Seccion de logs
 server:
   port: 9090
   servlet:
-    context-path: /api/v1/gestion-usuarios
+    context-path: /api/v1/inventario
